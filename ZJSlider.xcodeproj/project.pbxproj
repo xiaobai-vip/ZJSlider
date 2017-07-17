@@ -15,6 +15,8 @@
 		B156D6F61F1CBB2D00D6AFDD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B156D6F41F1CBB2D00D6AFDD /* LaunchScreen.storyboard */; };
 		B156D7011F1CBB2D00D6AFDD /* ZJSliderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B156D7001F1CBB2D00D6AFDD /* ZJSliderTests.m */; };
 		B156D70C1F1CBB2D00D6AFDD /* ZJSliderUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B156D70B1F1CBB2D00D6AFDD /* ZJSliderUITests.m */; };
+		B156D71B1F1CBB4600D6AFDD /* ZJSliderView.m in Sources */ = {isa = PBXBuildFile; fileRef = B156D71A1F1CBB4600D6AFDD /* ZJSliderView.m */; };
+		B156D71E1F1CBC0C00D6AFDD /* UIColor+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = B156D71D1F1CBC0C00D6AFDD /* UIColor+Extension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		B156D7071F1CBB2D00D6AFDD /* ZJSliderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZJSliderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B156D70B1F1CBB2D00D6AFDD /* ZJSliderUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJSliderUITests.m; sourceTree = "<group>"; };
 		B156D70D1F1CBB2D00D6AFDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B156D7191F1CBB4600D6AFDD /* ZJSliderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJSliderView.h; sourceTree = "<group>"; };
+		B156D71A1F1CBB4600D6AFDD /* ZJSliderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJSliderView.m; sourceTree = "<group>"; };
+		B156D71C1F1CBC0C00D6AFDD /* UIColor+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Extension.h"; sourceTree = "<group>"; };
+		B156D71D1F1CBC0C00D6AFDD /* UIColor+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Extension.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +109,10 @@
 			children = (
 				B156D6E91F1CBB2C00D6AFDD /* AppDelegate.h */,
 				B156D6EA1F1CBB2C00D6AFDD /* AppDelegate.m */,
+				B156D7191F1CBB4600D6AFDD /* ZJSliderView.h */,
+				B156D71A1F1CBB4600D6AFDD /* ZJSliderView.m */,
+				B156D71C1F1CBC0C00D6AFDD /* UIColor+Extension.h */,
+				B156D71D1F1CBC0C00D6AFDD /* UIColor+Extension.m */,
 				B156D6EC1F1CBB2C00D6AFDD /* ViewController.h */,
 				B156D6ED1F1CBB2C00D6AFDD /* ViewController.m */,
 				B156D6EF1F1CBB2C00D6AFDD /* Main.storyboard */,
@@ -271,6 +281,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B156D6EE1F1CBB2C00D6AFDD /* ViewController.m in Sources */,
+				B156D71B1F1CBB4600D6AFDD /* ZJSliderView.m in Sources */,
+				B156D71E1F1CBC0C00D6AFDD /* UIColor+Extension.m in Sources */,
 				B156D6EB1F1CBB2C00D6AFDD /* AppDelegate.m in Sources */,
 				B156D6E81F1CBB2C00D6AFDD /* main.m in Sources */,
 			);
@@ -412,6 +424,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ZJSlider/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zjhcsoft.ZJSlider;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -423,6 +436,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ZJSlider/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zjhcsoft.ZJSlider;
 				PRODUCT_NAME = "$(TARGET_NAME)";
